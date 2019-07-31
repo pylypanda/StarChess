@@ -1,0 +1,20 @@
+.black-sq {
+    background-color: brown;
+}
+.white-sq {
+    background-color: burlywood;
+} 
+
+.divTable{
+	display: table;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableCell {
+	display: table-cell;
+	/* padding: 20px; */
+}
+.divTableBody {
+	display: table-row-group;
+}

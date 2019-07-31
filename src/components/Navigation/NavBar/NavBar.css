@@ -1,0 +1,11 @@
+a {
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+#resp a {
+    text-align: center;
+    display: block;
+}
