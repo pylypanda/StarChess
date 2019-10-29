@@ -1,8 +1,7 @@
 const Puzzle = require('../models/puzzle-model');
 
 getPuzzlesByType = async (req, res) => {
-    await Puzzle.find({ type: req.params.puzType }, (err, puzzles) => {
-        console.log('getPuzzlesByType:');        
+    await Puzzle.find({ type: req.params.puzType }, (err, puzzles) => {   
         if (err) {
             return res.status(400).json({ success: false, error: err })
         }
