@@ -1,8 +1,7 @@
 const Opening = require('../models/opening-model');
 
 getOpeningByName = async (req, res) => {
-    await Opening.findOne({ name: req.params.name }, (err, opening) => {
-        console.log('GetOpeningByName:');        
+    await Opening.findOne({ name: req.params.name }, (err, opening) => {   
         if (err) {
             return res.status(400).json({ success: false, error: err })
         }
@@ -16,8 +15,7 @@ getOpeningByName = async (req, res) => {
 }
 
 getOpeningsByType = async (req, res) => {
-    await Opening.find({ type: req.params.opType }, (err, openings) => {
-        console.log('getOpeningsByType:');        
+    await Opening.find({ type: req.params.opType }, (err, openings) => {     
         if (err) {
             return res.status(400).json({ success: false, error: err })
         }
