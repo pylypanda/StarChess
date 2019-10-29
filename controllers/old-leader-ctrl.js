@@ -11,7 +11,7 @@ getOldLeaders = async (req, res) => {
                 .json({ success: false, error: `Old leaders not found` })
         }
         return res.status(200).json({ success: true, data: leaders })
-    }).catch(err => console.log(err))
+    }).sort({ year: 1 }).catch(err => console.log(err))
 }
 
 module.exports = { getOldLeaders };

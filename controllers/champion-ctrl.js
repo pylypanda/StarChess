@@ -11,7 +11,7 @@ getChampions = async (req, res) => {
                 .json({ success: false, error: `World champions not found` })
         }
         return res.status(200).json({ success: true, data: champions })
-    }).catch(err => console.log(err))
+    }).sort({ year: 1 }).catch(err => console.log(err))
 }
 
 module.exports = { getChampions };

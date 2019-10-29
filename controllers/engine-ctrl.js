@@ -11,7 +11,7 @@ getEngines = async (req, res) => {
                 .json({ success: false, error: `Engines not found` })
         }
         return res.status(200).json({ success: true, data: engines })
-    }).catch(err => console.log(err))
+    }).sort({ rank: -1 }).catch(err => console.log(err))
 }
 
 module.exports = { getEngines };
