@@ -17,7 +17,7 @@ getTopStandartPlayers = async (req, res) => {
                 .json({ success: false, error: `Top-100 not found` })
         }
         return res.status(200).json({ success: true, data: top })
-    }).sort({ rank: 1 }).catch(err => console.log(err))
+    }).sort({ rank: 1 }).collation({locale: "en_US", numericOrdering: true}).catch(err => console.log(err))
 }
 
 getTopStandartWomPlayers = async (req, res) => {
@@ -31,7 +31,7 @@ getTopStandartWomPlayers = async (req, res) => {
                 .json({ success: false, error: `Top-100 not found` })
         }
         return res.status(200).json({ success: true, data: top })
-    }).sort({ rank: 1 }).catch(err => console.log(err))
+    }).sort({ rank: 1 }).collation({locale: "en_US", numericOrdering: true}).catch(err => console.log(err))
 }
 
 getTopRapidPlayers = async (req, res) => {
@@ -45,7 +45,7 @@ getTopRapidPlayers = async (req, res) => {
                 .json({ success: false, error: `Top-100 not found` })
         }
         return res.status(200).json({ success: true, data: top })
-    }).sort({ rank: 1 }).catch(err => console.log(err))
+    }).sort({ rank: 1 }).collation({locale: "en_US", numericOrdering: true}).catch(err => console.log(err))
 }
 
 getTopRapidWomPlayers = async (req, res) => {
@@ -59,7 +59,7 @@ getTopRapidWomPlayers = async (req, res) => {
                 .json({ success: false, error: `Top-100 not found` })
         }
         return res.status(200).json({ success: true, data: top })
-    }).sort({ rank: 1 }).catch(err => console.log(err))
+    }).sort({ rank: 1 }).collation({locale: "en_US", numericOrdering: true}).catch(err => console.log(err))
 }
 
 getTopBlitzPlayers = async (req, res) => {
@@ -73,7 +73,7 @@ getTopBlitzPlayers = async (req, res) => {
                 .json({ success: false, error: `Top-100 not found` })
         }
         return res.status(200).json({ success: true, data: top })
-    }).sort({ rank: 1 }).catch(err => console.log(err))
+    }).sort({ rank: 1 }).collation({locale: "en_US", numericOrdering: true}).catch(err => console.log(err))
 }
 
 getTopBlitzWomPlayers = async (req, res) => {
@@ -87,7 +87,7 @@ getTopBlitzWomPlayers = async (req, res) => {
                 .json({ success: false, error: `Top-100 not found` })
         }
         return res.status(200).json({ success: true, data: top })
-    }).sort({ rank: 1 }).catch(err => console.log(err))
+    }).sort({ rank: 1 }).collation({locale: "en_US", numericOrdering: true}).catch(err => console.log(err))
 }
 
 module.exports = {
