@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const uri = 'mongodb+srv://pylypanda:parol1233214@cluster0-csnvf.mongodb.net/test?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://pylypanda:parol1233214@cluster0-csnvf.mongodb.net/test?retryWrites=true&w=majority/starchess'
 
 mongoose
     .connect(uri, { useNewUrlParser: true })
