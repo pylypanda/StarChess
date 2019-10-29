@@ -7,7 +7,7 @@ const db = require('./db')
 const Router = require('./routes/router')
 
 const app = express()
-const apiPort = 3000
+const apiPort = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'build')))
 
