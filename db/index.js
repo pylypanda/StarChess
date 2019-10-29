@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 mongoose
-    .connect('mongodb://127.0.0.1:27017/starchess', { useNewUrlParser: true })
+    .connect('mongodb+srv://pylypanda:parol1233214@cluster0-csnvf.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true })
     .catch(e => {
         console.error('Connection error', e.message)
     })
