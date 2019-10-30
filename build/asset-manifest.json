@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf6713c9.chunk.css",
+    "main.css": "/static/css/main.46c40625.chunk.css",
     "main.js": "/static/js/main.0ecadd89.chunk.js",
     "main.js.map": "/static/js/main.0ecadd89.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.373b54e2.chunk.js": "/static/js/2.373b54e2.chunk.js",
     "static/js/2.373b54e2.chunk.js.map": "/static/js/2.373b54e2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.98fc1cefd8ea6823a14566fe947707fb.js": "/precache-manifest.98fc1cefd8ea6823a14566fe947707fb.js",
+    "precache-manifest.571b005ca6037eab939f6ea8a7905bac.js": "/precache-manifest.571b005ca6037eab939f6ea8a7905bac.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bf6713c9.chunk.css.map": "/static/css/main.bf6713c9.chunk.css.map",
+    "static/css/main.46c40625.chunk.css.map": "/static/css/main.46c40625.chunk.css.map",
     "static/media/ChessBoard.png": "/static/media/ChessBoard.98c2f1d0.png",
     "static/media/anand.jpg": "/static/media/anand.541a37b9.jpg",
     "static/media/index.css": "/static/media/bg.070bd80b.jpg",
