@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.742c5f8d.chunk.css",
-    "main.js": "/static/js/main.b64e16a5.chunk.js",
-    "main.js.map": "/static/js/main.b64e16a5.chunk.js.map",
+    "main.js": "/static/js/main.ac71a1c7.chunk.js",
+    "main.js.map": "/static/js/main.ac71a1c7.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.373b54e2.chunk.js": "/static/js/2.373b54e2.chunk.js",
     "static/js/2.373b54e2.chunk.js.map": "/static/js/2.373b54e2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a5ef8dc68ee07246a1e9b2005d8b3b53.js": "/precache-manifest.a5ef8dc68ee07246a1e9b2005d8b3b53.js",
+    "precache-manifest.98f6f0cf17d3015bbb46f9a77b97763d.js": "/precache-manifest.98f6f0cf17d3015bbb46f9a77b97763d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.742c5f8d.chunk.css.map": "/static/css/main.742c5f8d.chunk.css.map",
     "static/media/ChessBoard.png": "/static/media/ChessBoard.98c2f1d0.png",
