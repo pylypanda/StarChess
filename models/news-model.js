@@ -6,6 +6,7 @@ const News = new Schema(
         img: { type: String, required: true },
         title: { type: String, required: true },
         author: { type: String, required: true },
+        link: { type: String, required: true },
         article: { type: String, required: true },
         date: { type: String, required: true }
     },
