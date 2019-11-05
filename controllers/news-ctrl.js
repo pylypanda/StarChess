@@ -26,7 +26,7 @@ getSomeNews = async (req, res) => {
                 .json({ success: false, error: `News not found` })
         }
         return res.status(200).json({ success: true, data: news })
-    }).limit(parseInt(req.params.quantity)).catch(err => console.log(err))
+    }).sort({ _id: -1 }).limit(parseInt(req.params.quantity)).catch(err => console.log(err))
 }
 
 getNews = async (req, res) => {
@@ -40,7 +40,7 @@ getNews = async (req, res) => {
                 .json({ success: false, error: `News not found` })
         }
         return res.status(200).json({ success: true, data: news })
-    }).catch(err => console.log(err))
+    }).sort({ _id: -1 }).catch(err => console.log(err))
 }
 
 module.exports = {
